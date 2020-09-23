@@ -5,7 +5,7 @@ require "./lib/ingredient"
 class IngredientTest < Minitest::Test
   def test_should_exist
     ingredient1 = Ingredient.new({name: "Cheese", unit: "oz", calories: 50})
-    assert_instance_of Ingredient, ingredient
+    assert_instance_of Ingredient, ingredient1
   end
 
   def test_it_has_its_attributes
